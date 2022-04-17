@@ -10,48 +10,45 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Static Template</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Random user</title>
   </head>
   <body>
-    <header>
-      <a href="#">home</a>
-    </header>
     <section class="main">
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3">
         <div class="row no-gutters">
-          <div class="col-md-4" id="cardImg">
+          <div class="card-img-wrapper col-md-4" id="cardImg">
             <img
-              class="card-img"
+              class="card-img rounded-circle"
               src="https://image.freepik.com/free-icon/important-person_318-10744.jpg"
-              alt="#"
+              alt="avatar"
               id="Avatar"
             />
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Информация о пользователи</h5>
+              <h5 class="card-title">Информация о пользователе</h5>
               <ul class="card-list">
+                <li id="Surname">ФИО:</li>
                 <li id="Female">Пол:</li>
-                <li id="Surname">Фамилия Имя:</li>
                 <li id="Address">Город:</li>
                 <li id="Email">Email:</li>
                 <li id="DataAge">Дата рождения и возраст:</li>
                 <li id="Phone">Телефон:</li>
               </ul>
+              <button
+                type="button"
+                class="card-button btn btn-primary"
+                onclick="getResponse()"
+                id="Loader"
+              >
+                <span class="card-button__text">Start</span>
+              </button>
             </div>
-            <button
-              type="button"
-              class="btn btn-secondary card-button"
-              onclick="getResponse()"
-              id="loader"
-            >
-              UserApi
-            </button>
           </div>
         </div>
       </div>
     </section>
-    <script src="fetch.js"></script>
+    <script src="./src/script/fetch.js"></script>
   </body>
 </html>

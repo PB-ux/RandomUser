@@ -1,2 +1,1 @@
-# randomuser
-Created with CodeSandbox
+# Random User
