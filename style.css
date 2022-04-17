@@ -1,0 +1,60 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91.8%;
+  width: 100%;
+  background: no-repeat center url("desktop.jpg");
+  background-size: cover;
+}
+
+.card {
+  min-width: 700px;
+  border: none;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.75);
+  border-radius: 0px;
+}
+
+.card-img {
+  width: 250px;
+  height: 260px;
+  border-radius: 0px;
+}
+
+.card-body {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+}
+
+.card-list {
+  padding-left: 20px;
+}
+
+.card-list li {
+  list-style: decimal;
+}
+
+.card-button {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
