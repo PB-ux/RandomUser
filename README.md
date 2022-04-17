@@ -1,2 +1,2 @@
 # Random User
-GithubPage - https://pb-ux.github.io/RandomUser/
+Github Page - https://pb-ux.github.io/RandomUser/
